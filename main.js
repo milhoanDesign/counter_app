@@ -1,2 +1,6 @@
 
-let count = 0; 
+document.addEventListener('DOMContentLoaded', function(){
+
+    
+})
+
