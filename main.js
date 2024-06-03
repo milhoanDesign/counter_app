@@ -1,15 +1,10 @@
 
-document.addEventListener('DOMContentLoaded', function(){
+let lap1 = 34;
+let lap2 = 44;
+let lap3 = 54;
 
-    document.getElementById('count-el').innerText = 0;
-    document.getElementById('increment-btn');
-    document.getElementById('save-btn');
+function lapTotal(){
+    lapsSum = lap1+lap2+lap3;
+}
 
-    let total = 0;
-    let incrementPerson = total ++; 
-
-    function incrementPerson() {
-
-    }
-})
-
+lapTotal()
