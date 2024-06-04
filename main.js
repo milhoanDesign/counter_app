@@ -1,10 +1,7 @@
+let lapsCompleted = 0;
 
-let lap1 = 34;
-let lap2 = 44;
-let lap3 = 54;
-
-function lapTotal(){
-    console.log(lap1+lap2+lap3);
+function addLap() {
+    lapsCompleted += 1; 
 }
 
-lapTotal();
+console.log(addLap(3));
