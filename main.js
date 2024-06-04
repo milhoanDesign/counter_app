@@ -1,7 +1,10 @@
-let lapsCompleted = 0;
+document.getElementById('count-el', function() {
 
-function addLap() {
-    lapsCompleted += 1; 
-}
+    let counter = 0; 
 
-console.log(addLap(3));
+    function addPerson() {
+
+    }
+
+    
+})
