@@ -1,10 +1,8 @@
-document.getElementById('count-el', function() {
 
-    let counter = 0; 
+// Initialize the count as 0
+// Listen for clicks on the Increment button
+// Increment the count variable when the button is clicked
+// Change the count-el in the HTML to reflect the new count
 
-    function addPerson() {
+let count = 0; 
 
-    }
-
-    
-})
