@@ -4,5 +4,15 @@
 // Increment the count variable when the button is clicked
 // Change the count-el in the HTML to reflect the new count
 
-let count = 0; 
 
+document.addEventListener("DOMContentLoaded", function() {
+    const incrementBtn = document.getElementById("increment-btn");
+    const countEl = document.getElementById("count-el");
+
+    let count = 0;
+
+    incrementBtn.addEventListener("click", function() {
+        count++;
+        countEl.textContent = count;
+    });
+});
